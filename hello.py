@@ -1,2 +1,8 @@
-print("My name is Sathvik")
-print("I study in CMR University")
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+n = int(input("Enter a number to calculate its factorial: "))
+result = factorial(n)
+print(f"The factorial of {n} is {result}.")
