@@ -1,8 +1,8 @@
-def factorial(n):
-    if n == 0:
+def factorial(m):
+    if m == 0:
         return 1
     else:
-        return n * factorial(n - 1)
-n = int(input("Enter a number to calculate its factorial: "))
-result = factorial(n)
-print(f"The factorial of {n} is {result}.")
+        return m * factorial(m - 1)
+m = int(input("Enter a number to calculate its factorial: "))
+result = factorial(m)
+print(f"The factorial of {m} is {result}.")
